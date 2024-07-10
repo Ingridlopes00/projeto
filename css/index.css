@@ -1,0 +1,224 @@
+body{
+    color: #000191;
+    background-color: #fffadf;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.row{
+    width:100%;
+    height: auto;
+
+}
+#menu:hover{
+    background-color: #fffadf;
+    color: #000191;
+    padding: 14px 14px;
+    border: 1px solid #fffadf;
+
+}
+
+a{
+    color: #000191;
+    text-decoration: none;
+    
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #f7ac18;
+    margin-bottom: 5px;
+   
+}
+
+.img{
+    float:left;
+    width:30%;
+}
+
+.im{
+    width: 99%;
+    padding: 20px;;
+    height: 18em;
+    float: left;
+    justify-content: center;
+    padding: 5px;
+}
+.im4{
+    width: 90%;
+    padding: 20px;;
+    height: 20em;
+    float: left;
+    padding: 5px;
+}
+
+#teste{
+    width:20%;
+ 
+    height:5em;
+    padding-top: 15px;
+}
+
+.im:hover{
+
+    width: 80%;
+    background-color: #fea405;
+  
+}
+
+.center{
+    text-align: center;
+}
+
+h3{
+ 
+    align-items: center;
+    margin-left: 50px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f7ac18;
+    width: 100%;
+    margin: 0 auto ;
+    height:40px ;
+    position:relative;
+
+
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
+
+.video{
+    float:left;
+    width:30%;
+}
+
+video{
+    width: 60%;
+    padding: 5px;;
+    height: 18em;
+   float: left;
+   justify-content: center;
+   padding: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-bottom: 40px;
+    
+}
+
+#formu{
+    width:20%;
+    margin-left: 30px;
+    margin: 0 auto;
+    margin-bottom: 213px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.meo1{
+    width: 32%;
+    height: 0 auto;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meo2{
+    width: 32%;
+    height: 0 auto;
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bb{
+    width: 32%;
+    height: 0 auto;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.meo3{
+    width: 45%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.meo4{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.meo5{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    text-align: center;
+}
+
+.meo6{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.meo7{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    text-align: center;
+}
+
+.meo8{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.meo9{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+
+}
+

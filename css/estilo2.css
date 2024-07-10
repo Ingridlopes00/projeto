@@ -1,0 +1,47 @@
+/* para configurar a class no css usamos .nomeclass{}
+se for id usamos #nomedoID{}
+se for o elemento tag escreve tag{} ex = h1{}
+*/
+
+
+
+.principal{
+    width : 99%;
+    height: 64em;
+    background-color: beige; 
+    margin: 0 auto;
+}
+.img{
+    width: 30%;
+    height: 15em;
+    float: left;
+}
+.text1{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    background-color: aqua;
+   /* margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    */
+}
+.text2{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    background-color: aquamarine;
+}
+.text3{
+    width: 33.3%;
+    height: 35em;
+    float: left;
+    background-color: blue;
+}
+.menu{
+
+    margin-top: 30px;
+    width: 90%;
+    height: 100px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+    type="imagex/png" href="img/chef.ico">
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <title>Envie sua Receita</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    <header class="header">
+    <nav>
+        <ul>
+            <li id="menu">
+                <a href="index.html"><h1>Brasil à Mesa</h1></a>
+            </li>
+            <li id="menu">
+                <a href="Comida.html">Modo de preparo</a>
+            </li>
+            <li id="menu">
+                <a href="bebida.html">Bebidas</a>
+            </li>
+            <li id="menu">
+                <a href="video.html">Vídeos</a>
+            </li>
+            <li id="menu">
+                <a href="diferente.html">Envie sua receita</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+        <div class="container" id="formu">
+            <h3>Acesse sua conta</h3>
+            <br>
+            <form name="contato">
+                <div class="tag">
+                    <label>Nome:</label>
+                </div>
+                <div class="box">
+                    <input class="form-control" type="text" name="nome"><br>
+                </div>
+                <br>
+
+                <div class="tag">
+                    <label>E-mail:</label>
+                </div>
+                <div class="box">
+                    <input  class="form-control" type="email" name="email"><br>
+                </div>
+                <br>
+
+                <div class="tag">
+                    <label>Senha:</label>
+                </div>
+                <div class="box">
+                    <input class="form-control" type="password" name="senha"><br>
+                </div>
+                <br>
+
+                <button  type="submit" value="Enviar">
+                    Enviar</button>
+                    <button  type="reset"  value="Limpar">
+                    Limpar</button>
+                <br>
+                    <div class="tag">
+                        <br>
+                        <h3>Envie sua Receita</h3>
+                        <br>
+                        <span> Assunto:</span>
+                        </div> 
+                        <div class="box">
+                            <select  name="Receita">
+                            <option value="Outros" selected>Outros</option>
+                            <option value="Festa Junina">Festa Junina</option> 
+                            <option value="Bolos" >Bolos</option>
+                            <option value="Tortas">Tortas</option>
+                            <option value="Carnes">Carnes</option>
+                            <option value="Aves">Aves</option>
+                            <option value="Peixes e Frutos do Mar">Peixes e Frutos do Mar</option>
+                            <option value="Saladas e Molhos">Saladas e Molhos</option>
+                            <option value="Sopas">Sopas</option>
+                            <option value="Massas">Massas</option>
+                            <option value="Bebidas">Bebidas</option>
+                            <option value="Doces e Sobremesas">Doces e Sobremesas</option>
+                            <option value="Lanches">Lanches</option>
+                            <option value="Alimentacao Saudavel">Alimentação Saudável</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <div class="tag">
+                            <span> Mensagem:</span><br>
+                        </div>
+                        <div class="box"></div>
+                            <textarea  name="mensagem" rows="10" cols="33" 
+                            placeholder="Mensagem">			
+                        </textarea>	<br><br>
+                        
+                        <button  type="submit" value="Enviar">
+                        Enviar</button>
+                        <button  type="reset"  value="Limpar">
+                        Limpar</button>
+</form>
+        </div>
+                        <footer>
+                            <p>Envie sua receita, contribua com seu toque especial à nossa coleção de sabores.</p>
+                        </footer>

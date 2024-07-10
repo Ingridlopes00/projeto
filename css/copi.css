@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #80cbc4;
+}
+.navbar{
+	float:left;
+	width:0 auto;
+	height:40px;
+	margin-top:30px;
+	margin-left:200px;
+}
+.navbar ul li{
+    display:inline;
+	margin-left:8px;
+	margin-right:7px;
+	width:0 auto;
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    
+}
+.navbar a:hover{
+    background-color:#b2dfdb;
+    color:black;
+    padding:14px 14px;
+    border:1px solid #b2dfdb;
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    height:40px ;
+    background-color:#80cbc4;
+    color: beige;
+    clear: both;
+    position:relative;
+    bottom: 15px;
+}

@@ -1,0 +1,64 @@
+.cabecalho{
+    width:100%;
+	height:100px;
+	margin:0 auto;
+	background-color:#f1b389;
+	color:wheat;
+}
+#menu{
+    float: left;
+    width:0 auto;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#menu ul li{
+    display:inline;
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 0 auto;
+}
+#menu{
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+    font-size: 20px;
+}
+h1{
+    color: #f17b4d;
+}
+.meio{
+    width: 100%;
+    float: right;
+
+}
+.meio1{
+    width:30%;
+    float: left;
+    color: black;
+    text-align: left;
+}
+img{
+    width: 60%;
+    height: 300px;
+    margin-top: 10px;
+    padding: 12px;
+}
+.meio2{
+    width:20%;
+    float: left;
+    color: black;
+    text-align: left;
+}
+.meio3{
+    width:30%;
+    float: left;
+    color: black;
+    text-align: center;
+}
+.meio4{
+    background-color: rgb(245, 184, 72);
+    color: aliceblue;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
